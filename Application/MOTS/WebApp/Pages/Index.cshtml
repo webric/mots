@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "MOTS";
+}
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>MOTS</h2>    <button onclick="getLocation()">Get your location</button>
+        <p id="result"></p>
+        <div id="mapholder"></div>
+    </div>
+</div>
